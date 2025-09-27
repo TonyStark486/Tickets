@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshers Party Tickets</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Freshers Party Tickets SY 🎉</h1>
+    <form id="searchForm">
+      <label for="mobile">Enter Mobile Number:</label>
+      <input type="text" id="mobile" name="mobile" required placeholder="e.g., 9876543210">
+      
+      <div id="captchaBox" class="captcha"></div>
+      <input type="number" id="captchaAnswer" placeholder="Enter answer" required>
+      
+      <button type="submit">Get Ticket</button>
+    </form>
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
